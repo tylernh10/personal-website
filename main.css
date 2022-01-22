@@ -74,6 +74,7 @@ ul {
     display: flex;
     margin: auto;
     padding-inline-start: 0px;
+    margin-top: 25px;
 }
 
 .contact-links li {
