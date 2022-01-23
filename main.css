@@ -50,7 +50,7 @@ ul {
     transition: 0.2s;
     padding: 5px;
     border-radius: 10px;
-    border-bottom: 1px dotted black;
+    /* border-bottom: 1px dotted black; */
     box-shadow: 0 0 10px aqua,
               0 0 0px aqua,
               0 0 0 aqua,
@@ -185,6 +185,21 @@ ul {
     }
     h3 {
         font-size: 1.2em;
+    }
+    .contact-links li a:hover {
+        text-decoration: none;
+        color: rgb(233, 231, 231);
+        transition: 0.2s;
+        padding: 5px;
+        border-radius: 10px;
+        /* border-bottom: 1px dotted black; */
+        box-shadow: 0 0 10px aqua,
+                0 0 0px aqua,
+                0 0 0 aqua,
+                0 0 0px aqua;
+                border-radius: 10px;
+        font-weight: normal;
+        background-color: transparent;
     }
 }
 
