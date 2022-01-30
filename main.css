@@ -3,6 +3,8 @@
 html {
     background: linear-gradient(rgb(0, 8, 24), #04083b);
     min-height: 100vh;
+    background-image: url("nature.jpg");
+    width: 100%;
 }
 
 body {
