@@ -301,12 +301,16 @@ ul {
     }
 }
 
-.login-text {
+.login-text, .login-text-1 {
     font-weight: bold;
-    font-size: 0.7em;
+    font-size: 0.8em;
     margin: auto;
     text-align: center;
     margin-top: 50px;
+}
+
+.login-text-1 {
+    margin-top: 10px;
 }
 
 @keyframes fadeInAnimation {
@@ -334,4 +338,16 @@ ul {
     padding-top: 15px;
     padding-bottom: 15px;
     margin: 20px;
+    border-radius: 20px;
+}
+
+@media screen and (min-width:600px) {
+    .login-page {
+        width: 480px;
+        margin: auto;
+        margin-top: 20px;
+        border-radius: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }    
 }
