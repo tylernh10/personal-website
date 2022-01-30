@@ -6,6 +6,7 @@ html {
     background: linear-gradient(rgb(0, 8, 24), #04083b);
     min-height: 100vh;
     background-image: url("nature.jpg");
+    background-repeat: inherit;
     width: 100%;
     /* filter: blur(8px);
     -webkit-filter: blur(8px); */
@@ -29,8 +30,14 @@ body {
     padding-bottom: 20px;
     background-color: rgb(0, 8, 24, 0.35);
     border-radius: 20px;
-
 }
+
+@media screen and (min-width:950px) {
+    .content {
+        width: 900px;
+    }    
+}
+
 .smaller-content {
     display: none;
     background-color: rgb(0, 8, 24, 0.3);
