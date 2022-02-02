@@ -6,12 +6,10 @@ html {
     background: linear-gradient(rgb(0, 8, 24), #04083b);
     min-height: 100vh;
     background-image: url("nature.jpg");
-    background-repeat: inherit;
+    background-attachment: fixed;
     width: 100%;
-    /* filter: blur(8px);
-    -webkit-filter: blur(8px); */
 }
-/* make box */
+
 body {
     font-family: 'Source Code Pro', 'Segoe UI', sans-serif;
     white-space: nowrap;
@@ -24,8 +22,6 @@ body {
     justify-content: center;
     margin: auto;
     margin-top: 125px;
-    /* max-width: 60vw; */
-    /* min-width: 400px; */
     padding-top: 10px;
     padding-bottom: 27px;
     background-color: rgb(0, 8, 24, 0.5);
@@ -138,6 +134,14 @@ ul {
     bottom: 40px;
     background-color: rgb(0, 8, 24, 0.65);
     border-radius: 20px;
+}
+
+.bottom-version-page {
+    margin-top: 100px;
+}
+
+.bottom-log-pnf-page {
+    margin-top: 400px;
 }
 
 .small {
@@ -301,7 +305,7 @@ ul {
     }
 }
 
-.login-text, .login-text-1 {
+.login-text, .login-text-1, .pnf-text {
     font-weight: bold;
     font-size: 0.8em;
     margin: auto;
@@ -311,6 +315,10 @@ ul {
 
 .login-text-1 {
     margin-top: 10px;
+}
+
+.pnf-text {
+    font-size: 1.6em;
 }
 
 @keyframes fadeInAnimation {
@@ -342,7 +350,7 @@ ul {
 }
 
 @media screen and (min-width:600px) {
-    .login-page {
+    .login-page, .page-not-found {
         width: 480px;
         margin: auto;
         margin-top: 20px;
