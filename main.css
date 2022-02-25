@@ -1,17 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Poppins&display=swap');
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap'); */
 /* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap'); */
 
 html {
-    background: linear-gradient(rgb(0, 8, 24), #04083b);
+    /* background: linear-gradient(rgb(0, 8, 24), #04083b); */
     min-height: 100vh;
-    background-image: url("nature.jpg");
+    background-image: url("color.jpg");
     background-attachment: fixed;
+    background-position: center center;
     width: 100%;
+    background-color: antiquewhite;
 }
 
 body {
-    font-family: 'Source Code Pro', 'Segoe UI', sans-serif;
+    font-family: 'Poppins','Source Code Pro', 'Segoe UI', sans-serif;
     white-space: nowrap;
     overflow-x: hidden;
     color: rgb(233, 231, 231);
@@ -24,7 +27,7 @@ body {
     margin-top: 125px;
     padding-top: 10px;
     padding-bottom: 27px;
-    background-color: rgb(0, 8, 24, 0.5);
+    background-color: rgb(0, 8, 24, 0.65);
     border-radius: 20px;
 }
 
@@ -38,8 +41,14 @@ body {
     display: none;
     background-color: rgb(0, 8, 24, 0.3);
 }
+
+h3 {
+    font-weight: 100;
+    font-size: 1.7em;
+}
 h4 {
     margin-block-start: 0em;
+    font-weight: normal;
 }
 img {
     height: 200px;
@@ -106,7 +115,7 @@ ul {
     margin: auto;
     text-align: center;
     font-size: 0.8em;
-    font-weight: bold;
+    /* font-weight: bold; */
     margin-left: 0px;
     margin-right: 0px;
 }
@@ -115,7 +124,7 @@ ul {
     margin: auto;
     text-align: center;
     font-size: 0.8em;
-    font-weight: bold;
+    /* font-weight: bold; */
     margin-left: 0px;
     margin-right: 0px;
 }
@@ -238,14 +247,14 @@ ul {
     margin: auto;
     text-align: center;
     margin-top: 50px;
-    font-weight: bold;
+    /* font-weight: bold; */
     white-space: normal;
     margin-bottom: 25px;
     /* background-color: rgb(0, 8, 24, 0.3); */
 }
 
 .this-version {
-    font-weight: bold;
+    /* font-weight: bold; */
     white-space: normal;
     margin: auto;
     white-space: normal;
@@ -263,7 +272,7 @@ ul {
     /* width: 50vw; */
     margin: auto;
     text-align: justify;
-    font-weight: bold;
+    /* font-weight: bold; */
     white-space: normal;
     font-size: 0.8em;
     padding-top: 20px;
@@ -306,7 +315,7 @@ ul {
 }
 
 .login-text, .login-text-1, .pnf-text {
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 0.8em;
     margin: auto;
     text-align: center;
