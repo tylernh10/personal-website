@@ -4,96 +4,141 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/dlmode.css">
         <link rel="canonical" href="versions">
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
         <title>Version Log</title>
 
+        <!-- Primary Meta Tags -->
         <meta name="title" content="Tyler Hinrichs">
         <meta name="description" content="Honors CS student at the University of Connecticut">
 
-        <!-- Open Graph -->
+        <!-- Open Graph / Facebook -->
         <meta property="og:type" content="website">
         <meta property="og:url" content="https://tylerhinrichs.com/">
         <meta property="og:title" content="Tyler Hinrichs">
-        <meta property="og:description" content="Honors CS Student at the University of Connecticut">
-        <meta property="og:image" itemprop="image" content="https://github.com/tylernh10/PersonalWebsiteV1/socialsquare.png/">
+        <meta property="og:description" content="Honors CS student at the University of Connecticut">
+        <meta property="og:image" content="https://cdn.pixabay.com/photo/2020/03/21/19/27/sea-4955005_960_720.jpg">
 
         <!-- Twitter -->
         <meta property="twitter:card" content="summary_large_image">
         <meta property="twitter:url" content="https://tylerhinrichs.com/">
         <meta property="twitter:title" content="Tyler Hinrichs">
-        <meta property="twitter:description" content="Honors CS Student at the University of Connecticut">
-        <meta property="twitter:image" content="https://github.com/tylernh10/PersonalWebsiteV1/socialsquare.png/">
+        <meta property="twitter:description" content="Honors CS student at the University of Connecticut">
+        <meta property="twitter:image" content="https://cdn.pixabay.com/photo/2020/03/21/19/27/sea-4955005_960_720.jpg">
     </head>
 
     <body>
-        <div class="page">
-            <div class="title">version log</div>
-            <div class="wrapper">
-                <div class="versions current-version">
-                    <div class="this-version">
-                        <div>v0.1.6</div>
-                        <div>released 02/24/22</div>
-                        <div>(current version)</div>
+        <div class="page-container">
+            <div class="page">
+                <div class="title">version log</div>
+                <div class="wrapper">
+                    <div class="versions current-version">
+                        <div class="this-version">
+                            <div>v0.2.0</div>
+                            <div>released 06/05/22</div>
+                            <div>(current version)</div>
+                        </div>
+                        <div class="version-info">
+                            <div>- New profile image positioning</div>
+                            <div>- Fixed formatting on main content in index.html</div>
+                            <div>- Fixed transition issue that gave the appearance of items slightly shaking, especially on smaller devices</div>
+                            <div>- Updated fade in transition</div>
+                            <div>- Text capitalization in links</div>
+                            <div>- Adjusted formatting on versions page</div>
+                            <div>- Slightly reduced font size on small-width devices to improve overall readability</div>
+                            <div>- New background image!</div>
+                            <div>- New profile image (finally)!</div>
+                            <div>- Changed meta tags</div>
+                            <div>- Added simple programming joke API request page <a href="joke" class="versions-link">here</a></div>
+                            <div>- Formatting changes of bottom menu</div>
+                            <div class="summary">
+                                The site finally has some new updates! A lot of these changes have to do with updates to the previous CSS implementation, which had some issues. For example, the menu on the bottom of the screen did not have universal formatting. Instead, it had a position style of relative and the margin-top size was being changed to suit the specific page's content. Instead, the new version has absolute positioning (until the screen height reaches a certain value). Furthermore, the content on the main page was positioned haphazardly, which was changed with this release. The new joke page doesn't have much more function than my brief practice with API requests. Unfortunately, the CSS on this site is still a bit cluttered, though it has been improved since the last release. Especially for the release of my main site, I want to prioritize organization and a more structured approach to my styling. On this site, I also have been working on a dark mode/light mode feature, though this has not been completed yet. This site has needed some changes since its last release in February, and it finally got them. More to be released soon!
+                            </div>
+                        </div>
                     </div>
-                    <div class="version-info">Changed font and background image. Some text formatting changes. Trying to get back into working on this site more frequently. Considering working on a new version of this site from scratch, but for now, keeping this as is. More updates to come soon.</div>
-                </div>
-                <div class="versions">
-                    <div class="this-version">
-                        <div>v0.1.5</div>
-                        <div>released 02/1/22</div>
+                    <div class="versions">
+                        <div class="this-version">
+                            <div>v0.1.6</div>
+                            <div>released 02/24/22</div>
+                        </div>
+                        <div class="version-info">
+                            <div>- Changed font and background image</div>
+                            <div>- Some text formatting changes</div>
+                            <div class="summary">
+                                Trying to get back into working on this site more frequently. Considering working on a new version of this site from scratch, but for now, keeping this as is.
+                                More updates to come soon.
+                            </div>
+                        </div>
                     </div>
-                    <div class="version-info">Fixed background image. Added footer on all pages and fixed positioning. Favicon error fixed. 404 page added. <div>v0.1.5 follow-up (2/2/22): iOS/mobile devices may block "background-attachment: fixed;" in the CSS, so the image will only be fixed in the background on desktop view.</div></div>
-                </div>
-                <div class="versions">
-                    <div class="this-version">
-                        <div>v0.1.4</div>
-                        <div>released 01/31/22</div>
+                    <div class="versions">
+                        <div class="this-version">
+                            <div>v0.1.5</div>
+                            <div>released 02/01/22</div>
+                        </div>
+                        <div class="version-info">
+                            <div>- Fixed background image</div>
+                            <div>- Added footer on all pages and fixed positioning</div>
+                            <div>- Favicon error fixed</div>
+                            <div>- 404 page added</div>
+                            <div class="summary">v0.1.5 follow-up (2/2/22): iOS/mobile devices may block "background-attachment: fixed;" in the CSS, so the image will only be fixed in the background on desktop view.</div>
+                        </div>
                     </div>
-                    <div class="version-info">Styling changes.</div>
-                </div>
-                <div class="versions">
-                    <div class="this-version">
-                        <div>v0.1.3</div>
-                        <div>released 01/30/22</div>
+                    <div class="versions">
+                        <div class="this-version">
+                            <div>v0.1.4</div>
+                            <div>released 01/31/22</div>
+                        </div>
+                        <div class="version-info">Styling changes.</div>
                     </div>
-                    <div class="version-info">Formatting updates.</div>
-                </div>
-                <div class="versions">
-                    <div class="this-version">
-                        <div>v0.1.2</div>
-                        <div>released 01/30/22</div>
+                    <div class="versions">
+                        <div class="this-version">
+                            <div>v0.1.3</div>
+                            <div>released 01/30/22</div>
+                        </div>
+                        <div class="version-info">Formatting updates.</div>
                     </div>
-                    <div class="version-info">Adjusted formatting on wider screens.</div>
-                </div>
-                <div class="versions">
-                    <div class="this-version">
-                        <div>v0.1.1</div>
-                        <div>released 01/29/22</div>
+                    <div class="versions">
+                        <div class="this-version">
+                            <div>v0.1.2</div>
+                            <div>released 01/30/22</div>
+                        </div>
+                        <div class="version-info">Adjusted formatting on wider screens.</div>
                     </div>
-                    <div class="version-info">Added background to footer section.</div>
-                </div>
-                <div class="versions">
-                    <div class="this-version">
-                        <div>v0.1.0</div>
-                        <div>released 01/29/22</div>
+                    <div class="versions">
+                        <div class="this-version">
+                            <div>v0.1.1</div>
+                            <div>released 01/29/22</div>
+                        </div>
+                        <div class="version-info">Added background to footer section.</div>
                     </div>
-                    <div class="version-info">Though several smaller-scale changes were made to the site since its initial release, this is the first noteworthy version change. It mainly relates to the background on the site changing, which necessitated changes to the formatting of text (putting a slightly transparent background on everything). Furthermore, the favicon was updated, and several other stylistic updates were made. This marks the first official version change since release. Several small changes will be made in the near future, likely to be recognized in the version log (unlike some previous changes).</div>
-                </div>
-                <div class="versions">
-                    <div class="this-version">
-                        <div>v0.0.0</div>
-                        <div>released 01/22/22</div>
+                    <div class="versions">
+                        <div class="this-version">
+                            <div>v0.1.0</div>
+                            <div>released 01/29/22</div>
+                        </div>
+                        <div class="version-info">Though several smaller-scale changes were made to the site since its initial release, this is the first noteworthy version change. It mainly relates to the background on the site changing, which necessitated changes to the formatting of text (putting a slightly transparent background on everything). Furthermore, the favicon was updated, and several other stylistic updates were made. This marks the first official version change since release. Several small changes will be made in the near future, likely to be recognized in the version log (unlike some previous changes).</div>
                     </div>
-                    <div class="version-info">This version is a baseline for my site. Currently, it is not much more than a placeholder. It is simple, containing only a main page with a picture and several links. A more complex site is in the works but is not fully complete. That's why this simpler version is currently at this domain. </div>
+                    <div class="versions">
+                        <div class="this-version">
+                            <div>v0.0.0</div>
+                            <div>released 01/22/22</div>
+                        </div>
+                        <div class="version-info">This version is a baseline for my site. Currently, it is not much more than a placeholder. It is simple, containing only a main page with a picture and several links. A more complex site is in the works but is not fully complete. That's why this simpler version is currently at this domain. </div>
+                    </div>
                 </div>
+                <div class="button"><a href="/">back</a></div>
+
+                <div class="bottom-menu v">
+                    <div class="bottom-info">
+                        <a href="versions" class="version-1 version">v0.2.0</a>
+                        <div class="version-2"> © 2022 Tyler Hinrichs</div>
+                    </div>
+                </div>
+
             </div>
-            <div class="button"><a href="/">back</a></div>
         </div>
-        <div class="bottom-info  bottom-version-page">
-            <a href="versions" class="version-1 version">v0.1.6</a>
-            <div class="version-2"> © 2022 Tyler Hinrichs</div>
-        </div>
+
     </body>
 </html>

@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="styles/main.css">
         <link rel="stylesheet" href="styles/dlmode.css">
         <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-        <title>Login</title>
+        <title>Joke</title>
 
         <!-- Primary Meta Tags -->
         <meta name="title" content="Tyler Hinrichs">
@@ -31,18 +31,29 @@
     <body>
         <div class="page-container">
             <div class="top-space-smaller"></div>
-            <div class="page login-page">
-                <div class="login-text">no login for you!</div>
-                <div class="login-text-1">nice try though.</div>
-                <div class="button"><a href="/">back</a></div>
+            <div id="joke-btn" class="joke" style="cursor: pointer;">
+                Click for a new joke!
+            </div>
+
+            <div class="joke-text">
+                jokes provided by
+                <a href="https://sv443.net/jokeapi/v2/" target="_blank">JokeAPI</a>
+            </div>
+
+            <div id="display">
+                <div>How does a programmer confuse a mathematician?</div>
+                <div style="margin-top: 10px;">x = x + 1.</div>
             </div>
             <div class="bottom-menu non-main-page-menu">
-                <div class="bottom-info bottom-log-pnf-page">
+                <div class="bottom-info">
                     <a href="versions" class="version-1 version">v0.2.0</a>
                     <div class="version-2"> © 2022 Tyler Hinrichs</div>
+                    <!-- <div id="dlbutton" onclick=darkMode()>🌙</div> -->
                 </div>
             </div>
         </div>
-    </body>
 
+        <script src="script.js"></script>
+        <script src="joke.js"></script>
+    </body>
 </html>
