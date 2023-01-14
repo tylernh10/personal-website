@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="styles/main.css">
         <link rel="stylesheet" href="styles/dlmode.css">
+        <link rel="stylesheet" href="styles/header.css">
         <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
         <title>Joke</title>
 
@@ -30,7 +31,7 @@
 
     <body>
         <div class="page-container">
-            <div class="top-space-smaller"></div>
+            <div class="top-space"></div>
             <div id="joke-btn" class="joke" style="cursor: pointer;">
                 Click for a new joke!
             </div>
@@ -44,15 +45,8 @@
                 <div>How does a programmer confuse a mathematician?</div>
                 <div style="margin-top: 10px;">x = x + 1.</div>
             </div>
-            <div class="bottom-menu non-main-page-menu">
-                <div class="bottom-info">
-                    <a href="versions" class="version-1 version">v0.2.1</a>
-                    <div class="version-2"> © 2022 Tyler Hinrichs</div>
-                    <!-- <div id="dlbutton" onclick=darkMode()>🌙</div> -->
-                </div>
-            </div>
+            <script src="scripts/header.js"></script>
         </div>
-
         <script src="script.js"></script>
         <script src="joke.js"></script>
     </body>

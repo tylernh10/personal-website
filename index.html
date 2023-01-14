@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="styles/main.css">
         <link rel="stylesheet" href="styles/dlmode.css">
+        <link rel="stylesheet" href="styles/header.css">
         <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
         <link rel="canonical" href="/">
         <title>Tyler Hinrichs</title>
@@ -30,11 +31,10 @@
     </head>
 
     <body>
-        <div class="page-container page-container-main">
-            <div class="top-space"></div>
+        <div class="page-container">
+            <!-- <div class="top-space"></div>
             <div class="content">
-                <!-- <img src="https://media-exp1.licdn.com/dms/image/C5603AQFcPcwTXk8cJw/profile-displayphoto-shrink_800_800/0/1654025954236?e=1659571200&v=beta&t=emDd2tD5fV3dTdLSnATqKto1pXa5y5aPvHjf0x0LewE"> -->
-                <img src="images/photo(edited).jpg">
+                <img class="image" src="images/photo(edited).jpg">
                 <ul class="main-text">
                     <li><h3>Tyler Hinrichs (he/him/his)</h3></li>
                     <li><h4 class="big">Honors Computer Science Student, University of Connecticut</h4></li>
@@ -48,19 +48,205 @@
                         <li><a href="https://linktr.ee/tyfreestyle" target="_blank">Music</a></li>
                     </ul>
                 </ul>
-            </div>
-            <div class="bottom-menu main-page-menu">
-                <div class="bottom-info">
-                    <a href="versions" class="version-1 version">v0.2.1</a>
-                    <div class="version-2"> © 2022 Tyler Hinrichs</div>
-                    <!-- <div id="dlbutton" onclick="darkMode()">🌙</div> -->
+            </div> -->
+            <div class="intro-content">
+                <div id="typing-section" class="typing">
+                    <!-- <span id="typing-space" style="width: 11px"></span> -->
+                    <div id="intro-name-container" class="intro-name"></div>
+                    <span id="cursor" class="input-cursor"></span>
                 </div>
+                <div id="intro-info-container" class="intro-info">Honors CS Student and aspiring SWE</div>
+                <img id="intro-expand" onclick="location.href='/#aboutme'" class="intro-image" src="images/expand-arrow.png">
             </div>
         </div>
-
-        <!-- <script src="script.js"></script> -->
+        <section id="aboutme" class="section">
+            <div class="top-space-smaller"></div>
+            <h3 class="section-title">
+                Hello, my name is Tyler Hinrichs.
+            </h3>
+            <div style="width: 100vw; margin: auto; text-align: center; margin-bottom: 20px;">(he/him/his)</div>
+            <div style="width: 100vw; display: flex;">
+                <img class="image center-image" src="images/photo(edited).jpg">
+            </div>
+            <div class="card-container">
+                <div class="card"> 
+                    <div class="card-title">Who am I?</div>
+                    <div class="card-item1">I am a computer science student and aspiring software engineer.</div>
+                    <div class="card-item1">I'm interested in mobile and web development and I'm passionate about projects that have a positive impact.</div>
+                </div>
+                <div class="card">
+                    <div class="card-title">What am I up to right now?</div>
+                    <div>Honors CS Student at UConn</div>
+                    <div class="card-subheader">- Software Design and Development Concentration</div>
+                    <div class="card-subheader">- Mathematics Minor</div>
+                    <div class="card-subheader card-item1">- Class of 2024</div>
+                    <div>Junior Software Engineer at Wellinks</div>
+                </div>
+                <div class="card">
+                    <div class="card-title">
+                        Some of my skills are...
+                    </div>
+                    
+                    <div class="skills-holder">
+                        <div class="picture-item">
+                            <img class="info-image" src="images/c++-logo.png">
+                            <div>C++</div>
+                        </div>
+                        <div class="picture-item">
+                            <img class="info-image" src="images/java-logo.png">
+                            <div>Java</div>
+                        </div>
+                        <div class="picture-item">
+                            <img class="info-image" src="images/python.png">
+                            <div>Python</div>
+                        </div>
+                        <div class="picture-item">
+                            <img class="info-image" src="images/kotlin-logo.png">
+                            <div>Kotlin</div>
+                        </div>
+                        <div class="picture-item">
+                            <img class="info-image" src="images/android-logo.png">
+                            <div>Android Development</div>
+                        </div>
+                        <div class="picture-item">
+                            <img class="info-image" src="images/github-logo.png">
+                            <div>Git/Github</div>
+                        </div>
+                        <div class="picture-item">
+                            <img class="info-image" src="images/oop.png">
+                            <div>OOP</div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="card">
+                    <div class="card-title">
+                        Some of my other interests are...
+                    </div>
+                    <div class="picture-item interest">
+                        <img class="info-image" src="images/audiotool-logo.png">
+                        <div>Music production on Audiotool</div>
+                    </div>
+                    <div class="picture-item interest">
+                        <img class="info-image" src="images/tetrio-logo.jpg">
+                        <div>Tetris on tetr.io</div>
+                    </div>
+                    <div class="picture-item interest">
+                        <img class="info-image" src="images/running.png">
+                        <div>Running</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="work-experience">
+            <div class="top-space-smaller"></div>
+            <h3 class="section-title">
+                Work Experience
+            </h3>
+            <div style="height: 3vh;"></div>
+            <div style="display: flex; justify-content: center;">
+                <a class="section-title link-button" href="https://www.linkedin.com/in/tylerhinrichs/" target="_blank">
+                    LinkedIn
+                </a>
+            </div>
+        </section>
+        
+        <section id="projects" class="section">
+            <div class="top-space-smaller"></div>
+            <h3 class="section-title">
+                Projects
+            </h3>
+            <div style="height: 3vh;"></div>
+            <div style="display: flex; justify-content: center;">
+                <a class="section-title link-button" href="https://www.github.com/tylernh10/" target="_blank">
+                    GitHub
+                </a>
+            </div>
+        </section>
+        <div class="top-space-smallest"></div>
+        <section id="education" class="education-section">
+            <div class="top-space-smaller"></div>
+            <div class="top-space-smallest"></div>
+            <div class="card work-experience-item-container education-container">
+                <h3 class="section-title">
+                    Education
+                </h3>
+                <div style="height: 2vh;"></div>
+                <div class="education-title">Computer Science at University of Connecticut</div>
+                <div>Class of 2024</div>
+                <div>Honors Program</div>
+                <div>Mathematics Minor</div>
+                <div class="skills-holder" style="margin-top: 20px; justify-content: space-between;">
+                    <div class="number-holder">
+                        <div class="number">4.0</div>
+                        <div class="number-text">GPA</div>
+                    </div>
+                    <div class="number-holder">
+                        <div class="number">9</div>
+                        <div class="number-text">CS Classes Completed</div>
+                    </div>
+                    <div class="number-holder">
+                        <div class="number">108</div>
+                        <div class="number-text">Credits Taken</div>
+                    </div>
+                </div>
+                <div class="top-space-smallest"></div>
+                <div class="skills-label">Completed Courses</div>
+                <div class="skills-holder">
+                    <div class="gray-bg margin-add1">C++ Essentials</div>
+                    <div class="gray-bg margin-add1">Computer Architecture</div>
+                    <div class="gray-bg margin-add1">Software Engineering</div>
+                    <div class="gray-bg margin-add1">Advanced Data Manipulation and Analysis with Python</div>
+                    <div class="gray-bg margin-add1">Systems Programming</div>
+                    <div class="gray-bg margin-add1">Algorithms and Complexity</div>
+                    <div class="gray-bg margin-add1">Discrete Systems</div>
+                    <div class="gray-bg margin-add1">Data Structures and Object-Oriented Design</div>
+                    <div class="gray-bg margin-add1">Number Theory</div>
+                    <div class="gray-bg margin-add1">Probability</div>
+                    <div class="gray-bg margin-add1">Linear Algebra</div>
+                    <div class="gray-bg margin-add1">Elementary Differential Equations</div>
+                    <div class="gray-bg margin-add1">Multivariable Calculus</div>
+                </div>
+                <div class="top-space-smallest"></div>
+                <div class="skills-label">Upcoming Relevant Courses (Spring 2023)</div>
+                <div class="skills-holder">
+                    <div class="gray-bg margin-add1">Principles of Databases</div>
+                    <div class="gray-bg margin-add1">Cybersecurity Lab</div>
+                    <div class="gray-bg margin-add1">Mobile Application Development</div>
+                </div>
+            </div>
+            <div class="top-space-smallest"></div>
+        </section>
+        <section id="contact">
+            <div class="top-space-smaller"></div>
+            <h3 class="section-title">
+                Contact
+            </h3>
+            <div class="top-space-smallest"></div>
+            <div class="card-container">
+                <div onclick="window.open('https://linkedin.com/in/tylerhinrichs', '_blank');" style="cursor: pointer;" class="card contact-card">
+                    <img class="center-image contact-image" src="images/linkedin.png">
+                </div>
+                <div onclick="location.href='mailto: tyler.hinrichs@uconn.edu';" style="cursor: pointer;"class="card contact-card">
+                    <img class="center-image contact-image" src="images/envelope.png">
+                </div>
+                <div onclick="window.open('https://github.com/tylernh10', '_blank');" style="cursor: pointer;"class="card contact-card">
+                    <img class="center-image contact-image" src="images/github.png">
+                </div>
+                <div onclick="window.open('https://linkedin.com/in/tylerhinrichs', '_blank');" style="cursor: pointer;"class="card contact-card">
+                    <img class="center-image contact-image" src="images/discord-bubble.png">
+                </div>
+                <div onclick="window.open('https://linktr.ee/tyfreestyle', '_blank');" style="cursor: pointer;"class="card contact-card">
+                    <img class="center-image contact-image" src="images/music.png">
+                </div>
+            </div>
+            <div class="top-space-smallest"></div>
+        </section>
     </body>
-
+    <script src="scripts/header.js"></script>
+    <script src="scripts/workexperience.js"></script>
+    <script src="scripts/projects.js"></script>
+    <script src="scripts/intro.js"></script>
 </html>
 
 
