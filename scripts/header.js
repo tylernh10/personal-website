@@ -1,7 +1,11 @@
 const template = document.createElement('template')
 template.innerHTML = `
 <nav class="header">
-    <div class="link-holder">
+    <a class="home-button" href="/#">Tyler Hinrichs</a>
+    <a class="icon" onclick="makeResponsive()">
+        <img class="menu-image" src="../images/menu.png">
+    </a>
+    <div id="nav-link-holder" class="link-holder">
         <a href="/#">home</a>
         <a href="/#aboutme">about me</a>
         <a href="/#work-experience">work experience</a>

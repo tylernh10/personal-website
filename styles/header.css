@@ -1,15 +1,14 @@
 .header {
-    /* background-color: rgb(41, 39, 39, 1); */
     position: fixed;
     display: flex;
-    flex-direction: row;
     top: 0;
     width: 100%;
     z-index: 1;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin: auto;
     transition: 0.5s;
+    margin: auto;
+    height: 50px;
 }
 
 .header a {
@@ -21,15 +20,74 @@
     padding: 10px 10px;
     text-decoration: none;
     font-size: 1em;
+    transition: 0.2s;
+    /* float: right; */
+}
+
+.link-holder {
+    margin: auto;
+}
+
+.header .home-button {
+    display: none;
+    float: left;
+}
+
+.header a:hover {
+    color: rgb(69, 175, 207);
+}
+
+.header .icon {
+    display: none;
+    float: right;
+    cursor: pointer;
+}
+
+.menu-image {
+    min-width: 30px;
+    min-height: 30px;
+    max-width: 30px;
+    max-height: 30px;
+
+}
+
+@media screen and (max-width: 1000px) {
+    .link-holder {
+        display: none;
+    }
+    .header {
+        display: block;
+    }
+    .header .icon {
+        display: block;
+        float: right;
+    }
+    .header .home-button {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .link-holder.responsive {
+        display: block;
+        position: relative;
+        margin-top: 60px;
+    }
+    .link-holder.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+        background-color: rgb(41, 39, 39, 0.8);;
+    }
 }
 
 .add-bg-color {
     background-color: rgb(41, 39, 39, 0.8);
 }
 
-.link-holder {
+/* .link-holder {
     margin: auto;
-}
+} */
 
 .bottom-info {
     display: grid;
