@@ -8,7 +8,7 @@
     padding-bottom: 10px;
     transition: 0.5s;
     margin: auto;
-    height: 50px;
+    height: 40px;
 }
 
 .header a {
@@ -21,7 +21,6 @@
     text-decoration: none;
     font-size: 1em;
     transition: 0.2s;
-    /* float: right; */
 }
 
 .link-holder {
@@ -49,7 +48,6 @@
     min-height: 30px;
     max-width: 30px;
     max-height: 30px;
-
 }
 
 @media screen and (max-width: 1000px) {
@@ -66,13 +64,17 @@
     .header .home-button {
         display: block;
     }
+    a.icon img {
+        padding-top: 5px;
+        margin-right: 10px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
     .link-holder.responsive {
         display: block;
         position: relative;
-        margin-top: 60px;
+        margin-top: 50px;
     }
     .link-holder.responsive a {
         float: none;
@@ -82,13 +84,13 @@
     }
 }
 
+a.icon {
+    padding: 0;
+}
+
 .add-bg-color {
     background-color: rgb(41, 39, 39, 1);
 }
-
-/* .link-holder {
-    margin: auto;
-} */
 
 .bottom-info {
     display: grid;
