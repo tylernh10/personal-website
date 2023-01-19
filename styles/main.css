@@ -808,3 +808,32 @@ footer {
         font-size: 1em;
     }
 }
+
+.discord-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    transition: 0.3s;
+}
+
+.discord-text-holder {
+    text-align: center;
+    font-size: 1em;
+    display: none;
+    transition: 0.3s;
+}
+
+.discord-card-outer {
+    transition: 0.3s;
+}
+
+.discord-card-outer:hover .discord-text-holder {
+    display: flex;
+}
+
+.discord-copy-image {
+    height: 18px;
+    width: 18px;
+    padding: 3px;
+}
