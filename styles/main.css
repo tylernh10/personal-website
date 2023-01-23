@@ -185,9 +185,7 @@ ul {
     background-color: rgb(0, 8, 24, 0.5);
     padding-top: 15px;
     padding-bottom: 15px;
-    /* margin: 20px; */
     border-radius: 20px;
-    /* position: absolute; */
 }
 
 @media screen and (min-width:600px) {
@@ -201,65 +199,6 @@ ul {
         padding-right: 40px;
     }
 }
-
-
-
-
-
-
-#display,
-.joke,
-.joke-text {
-    margin: auto;
-    text-align: center;
-}
-
-.joke {
-    background-color: rgb(23, 23, 32);
-    color: rgb(233, 231, 231);
-    width: 12em;
-    padding: 1em;
-    font-size: 90%;
-    border-radius: 60px;
-    /* margin-top: 40px; */
-    align-content: center;
-    border-color: white;
-    border-style: solid;
-    white-space: normal;
-}
-
-#display {
-    margin-top: 20px;
-    background-color: rgb(233, 231, 231);
-    color: black;
-    width: clamp(200px, 50%, 30em);
-    font-size: 1em;
-    padding: 1em;
-    word-wrap: break-word;
-    border-radius: 20px;
-    text-align: center;
-    white-space: normal;
-    display: block;
-    max-height: 60vh;
-    overflow: auto;
-    /* transition: 0.2s; */
-    /* transition: 0.3s; */
-}
-
-.joke-text {
-    margin-top: 18px;
-    font-size: 0.7em;
-}
-
-.joke-text a,
-.versions-link {
-    color: rgb(100, 230, 223);
-    text-decoration: none;
-}
-
-/* .joke:hover {
-    width: 10.5em;
-} */
 
 footer {
     background: #8f8f8f;
@@ -276,7 +215,6 @@ footer {
     position: relative;
     background-image: url("../images/city-adjusted.png");
     margin: auto;
-    /* padding-bottom: 20px; */
     scroll-behavior: smooth;
     display: flex;
     justify-content: center;
