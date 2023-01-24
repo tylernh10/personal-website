@@ -3,16 +3,16 @@ template.innerHTML = `
 <nav class="header">
     <a class="home-button" href="/#">Tyler Hinrichs</a>
     <a class="icon" onclick="makeResponsive()">
-        <img class="menu-image" src="../images/menu.png">
+        <img id="menu-img" class="menu-image" src="../images/menu.png">
     </a>
     <div id="nav-link-holder" class="link-holder">
-        <a href="/#">home</a>
-        <a href="/#aboutme">about me</a>
-        <a href="/#work-experience">work experience</a>
-        <a href="/#projects">projects</a>
-        <a href="/#education">education</a>
-        <a href="/#contact">contact</a>
-        <a href="versions.html">versions</a>
+        <a class="nav-link" href="/#">home</a>
+        <a class="nav-link" href="/#aboutme">about me</a>
+        <a class="nav-link" href="/#work-experience">work experience</a>
+        <a class="nav-link" href="/#projects">projects</a>
+        <a class="nav-link" href="/#education">education</a>
+        <a class="nav-link" href="/#contact">contact</a>
+        <a class="nav-link" href="versions.html">versions</a>
     </div>
 </nav>
 <footer class="bottom-menu">
