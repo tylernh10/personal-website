@@ -519,6 +519,7 @@ footer {
 
 .typing {
     display: flex;
+    margin: auto;
 }
 
 @keyframes blink {
