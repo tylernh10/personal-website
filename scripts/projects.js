@@ -1,15 +1,21 @@
 var projectsInfo = [
     {
+        image: "images/keyboard.png",
+        title: "Nitro Type Bot",
+        description: "Python typing bot made with Selenium and CustomTkinter",
+        link: "https://www.github.com/tylernh10/nitro-bot"
+    },
+    {
         image: "images/graphic-editor.png",
         title: "Graphical Editor",
         description: "Graphical editor made with C++ and Allegro5",
         link: "https://www.github.com/tylernh10/graphical-editor"
     },
     {
-        image: "images/online-course.png",
-        title: "Course Report System",
-        description: "Java system allowing user to interact with course information stored in file via command line",
-        link: "https://www.github.com/tylernh10/course-report-system"
+        image: "images/ux.png",
+        title: "Personal Website",
+        description: "The website you are currently on! Using HTML, CSS, and Javascript to create a portfolio website",
+        link: "https://www.github.com/tylernh10/personal-website-v1"
     },
     {
         image: "images/production.png",
@@ -18,10 +24,10 @@ var projectsInfo = [
         link: "https://www.github.com/tylernh10/audiotool-data"
     },
     {
-        image: "images/ux.png",
-        title: "Personal Website",
-        description: "The website you are currently on! Using HTML, CSS, and Javascript to create a portfolio website",
-        link: "https://www.github.com/tylernh10/personal-website-v1"
+        image: "images/online-course.png",
+        title: "Course Report System",
+        description: "Java system allowing user to interact with course information stored in file via command line",
+        link: "https://www.github.com/tylernh10/course-report-system"
     },
     {
         image: "images/chess-piece.png",
