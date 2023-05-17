@@ -354,7 +354,7 @@ footer {
     display: flex;
     max-width: 80vw;
     margin: auto;
-    justify-content: center;
+    justify-content: left;
     margin-bottom: 40px;
 }
 
@@ -377,6 +377,7 @@ footer {
     width: 100px;
     margin: auto;
     margin-right: 20px;
+    margin-left: 0px;
 }
 
 .gray-bg {
@@ -578,9 +579,10 @@ footer {
 @media screen and (max-width:550px) {
     .work-experience-item-container {
         flex-direction: column;
+        justify-content: center;
     }
     .work-experience-image {
-        margin-right: auto;
+        margin: auto;
     }
     .education-title {
         font-size: 1.2em;

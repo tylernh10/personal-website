@@ -1,5 +1,11 @@
 var projectsInfo = [
     {
+        image: "images/weather-icon.png",
+        title: "WeatherWise",
+        description: "An Android app to help plan your day using local weather and places data.",
+        link: "https://www.github.com/tylernh10/WeatherWise"
+    },
+    {
         image: "images/keyboard.png",
         title: "Nitro Type Bot",
         description: "Python typing bot made with Selenium and CustomTkinter",

@@ -1,8 +1,15 @@
 var experienceInfo = [
     {
+        image: "images/travelers-logo.png",
+        title: "TLDP Intern • Travelers",
+        date: "Starting June 2023",
+        summary: "Incoming intern",
+        skills: ["Software Development"]
+    },
+    {
         image: "images/wellinks-logo.png",
         title: "Junior Software Engineer • Wellinks",
-        date: "August 2022 - Present",
+        date: "August 2022 - March 2023",
         summary: "Android Developer, working collaboratively on a small team of engineers providing a digital solution for people with COPD, taking bug fixes, tech debt and new feature work on the Android app in an Agile environment, implementing third-party tools into the Android app such as Rollbar and Mixpanel, continued work on weather proof of concept, collaborating with multiple teams and sectors of the company such as Product, Clinical, and more.",
         skills: ["Android Development", "Kotlin", "MVVM", "Git/GitHub", "Agile"]
     },
