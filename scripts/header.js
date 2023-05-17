@@ -17,7 +17,7 @@ template.innerHTML = `
 </nav>
 <footer class="bottom-menu">
     <div class="bottom-info">
-        <a href="versions" class="version">v1.0.0</a>
+        <a href="versions" class="version">v1.0.1</a>
         <div class="version"> © 2023 Tyler Hinrichs</div>
     </div>
 </footer>
