@@ -3,8 +3,8 @@ var experienceInfo = [
         image: "images/travelers-logo.png",
         title: "TLDP Intern • Travelers",
         date: "June 2023 - present",
-        summary: "Reimagining audit system for Engineering Excellence team by creating a robust automation application leveraging Python, Selenium, and React JS; creating modular and reusable code through page object model design pattern and OOP principles; working in an Agile environment to methodically develop application",
-        skills: ["Python", "Selenium", "Automation", "Software Development", "Command Line Interface", "Graphical User Interface", "Agile", "Git/GitHub"]
+        summary: "Reimagining audit system for Engineering Excellence team by creating a robust automation application leveraging Python and Selenium; creating modular and reusable code through page object model design pattern, MVC pattern, and other OOP principles; working in an Agile environment to methodically develop application",
+        skills: ["Python", "Selenium", "Automation", "Software Development", "Command Line Interface", "Agile", "Git/GitHub"]
     },
     {
         image: "images/wellinks-logo.png",
