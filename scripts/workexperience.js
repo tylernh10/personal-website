@@ -1,23 +1,30 @@
 var experienceInfo = [
     {
+        image: "images/uconn-logo.png",
+        title: "Undergraduate Teaching Assistant • University of Connecticut",
+        date: "August 2023 - Present",
+        summary: "Undergraduate teaching assistant for CSE 3200, Mobile Application Development. Promote student learning of concepts such as Kotlin, Android SDK, MVVM design pattern, and more. Grade student assignments and exams and hold office hours on a weekly basis.",
+        skills: ["Kotlin", "Android Development", "Android SDK", "Software Development"]
+    },
+    {
         image: "images/travelers-logo.png",
         title: "TLDP Intern • Travelers",
         date: "June 2023 - August 2023",
-        summary: "Reimagining audit system for Engineering Excellence team by creating a robust automation application leveraging Python and Selenium; creating modular and reusable code through page object model design pattern, MVC pattern, and other OOP principles; working in an Agile environment to methodically develop application",
+        summary: "Reimagined Engineering Excellence team's audit system through a Python and Selenium-based application, reducing audit evidence collection time from days to minutes. Developed a suite of automated data-gathering methods, comprehensive error checking, detailed evidence logs, an intuitive command line interface, and extensive documentation. Ensured long-term extensibility through an adaptable and modular codebase implementing the Page-Object Model pattern, MVC pattern, and other OOP principles.",
         skills: ["Python", "Selenium", "Automation", "Software Development", "Command Line Interface", "Agile", "Git/GitHub", "MVC"]
     },
     {
         image: "images/wellinks-logo.png",
         title: "Junior Software Engineer • Wellinks",
         date: "August 2022 - March 2023",
-        summary: "Android Developer, working collaboratively on a small team of engineers providing a digital solution for people with COPD, taking bug fixes, tech debt and new feature work on the Android app in an Agile environment, implementing third-party tools into the Android app such as Rollbar and Mixpanel, continued work on weather proof of concept, collaborating with multiple teams and sectors of the company such as Product, Clinical, and more.",
+        summary: "Continued to deliver elegant Kotlin code as an Android developer, reenvisioned weather feature through GPS support addition, improved UX and documentation, started push notifications development. Integrated third-party tools Rollbar and Mixpanel into app, collaborated across teams to accomplish tasks.",
         skills: ["Android Development", "Kotlin", "MVVM", "Git/GitHub", "Agile", "Third-party software integration", "Cross-team collaboration", "Android SDK"]
     },
     {
         image: "images/wellinks-logo.png",
         title: "Software Engineering Intern • Wellinks",
         date: "June 2022 - August 2022",
-        summary: "Contributed as an Android developer, working on bugs, technical debt, and new feature work, maintained high-quality code and architecture using Kotlin alongside Hilt, MVVM Design Pattern, Retrofit, GraphQL Querying, fullstack Android development, OOP, REST APIs, working in an agile Environment, worked on \"Today's Weather\" proof of concept weather feature in the Wellinks Android app giving comprehensive environmental insights based on local weather metrics tailored to people with COPD.",
+        summary: "Crafted and maintained high-quality code and architecture as an Android developer using Kotlin, MVVM Pattern, Android SDK, REST APIs; delivered new feature work, bug fixes, tech debt in Agile environment. Led development for proof of concept feature in the Android app giving comprehensive environmental insights based on local weather metrics tailored to people with COPD.",
         skills: ["Android Development", "Kotlin", "MVVM", "Git/GitHub", "Agile", "OOP", "REST APIs", "Fullstack Software Development", "Android SDK"]
     },
 ]

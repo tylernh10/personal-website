@@ -8,7 +8,7 @@ function replaceImage() {
 }
 
 discordCard.onclick = function() {
-    navigator.clipboard.writeText(discordCard.innerText);
+    navigator.clipboard.writeText("tyfreestyle");
     discordImage.src = "../images/check.png"
     setTimeout(replaceImage, 1000);
 }

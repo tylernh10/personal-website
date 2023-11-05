@@ -1,12 +1,12 @@
-var i = 0;
+var nameIndex = 0;
 var txt = 'Tyler Hinrichs'
 
 
 function type() {
-    if (i < txt.length) {
-        document.getElementById("intro-name-container").innerHTML += txt.charAt(i);
-        i++;
-        setTimeout(type, 90);
+    if (nameIndex < txt.length) {
+        document.getElementById("intro-name-container").innerHTML += txt.charAt(nameIndex);
+        nameIndex++;
+        setTimeout(type, Math.random() * (120 - 90) + 90);
     }
 }
 

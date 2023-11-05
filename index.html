@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="styles/main.css">
         <link rel="stylesheet" href="styles/dlmode.css">
         <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/progressbar.css">
         <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
         <link rel="canonical" href="/">
         <title>Tyler Hinrichs</title>
@@ -42,13 +43,14 @@
             </div>
         </div>
         <section id="aboutme" class="section">
-            <div class="top-space-smaller"></div>
-            <h3 class="section-title">
-                Hello, my name is Tyler Hinrichs.
-            </h3>
-            <div style="width: 100vw; margin: auto; text-align: center; margin-bottom: 20px;">(he/him/his)</div>
+            <div class="center-vertical-stack">
+                <h3 class="section-title">Hello, I'm Tyler.</h3>
+                <div>(he/him/his)</div>
+                <img class="image center-image" src="images/nyc-profile.jpg">
+            </div>
+            
+            <div style="margin: auto; margin-bottom: 20px;"></div>
             <div style="width: 100vw; display: flex;">
-                <img class="image center-image" src="images/photo(edited).jpg">
             </div>
             <div class="card-container">
                 <div class="card"> 
@@ -56,14 +58,8 @@
                     <div class="card-item1">I am a computer science student and full stack software engineer.</div>
                     <div class="card-item1">I'm interested in mobile and web development and I'm passionate about projects that have a positive impact.</div>
                 </div>
-                <div class="card">
+                <div class="card" id="progress-update-card">
                     <div class="card-title">What am I up to right now?</div>
-                    <div>Honors CS Student at UConn</div>
-                    <div class="card-subheader">- Software Design and Development Concentration</div>
-                    <div class="card-subheader">- Mathematics Minor</div>
-                    <div class="card-subheader card-item1">- Class of 2024</div>
-                    <div>TLDP SWE Intern at Travelers</div>
-                    <div class="card-subheader card-item1">- Engineering Excellence team in Digital Enablement</div>
                 </div>
                 <div class="card">
                     <div class="card-title">
@@ -122,33 +118,20 @@
             </div>
         </section>
         <section id="work-experience">
-            <div class="top-space-smaller"></div>
-            <h3 class="section-title">
-                Work Experience
-            </h3>
-            <div style="height: 3vh;"></div>
-            <div style="display: flex; justify-content: center;">
-                <a class="section-title link-button" href="https://www.linkedin.com/in/tylerhinrichs/" target="_blank">
-                    LinkedIn
-                </a>
+            <div class="center-vertical-stack">
+                <h3 class="section-title">Work Experience</h3>
+                <a class="section-title link-button" href="https://www.linkedin.com/in/tylerhinrichs/" target="_blank">LinkedIn</a>
             </div>
         </section>
         
         <section id="projects" class="section">
-            <div class="top-space-smaller"></div>
-            <h3 class="section-title">
-                Projects
-            </h3>
-            <div style="height: 3vh;"></div>
-            <div style="display: flex; justify-content: center;">
-                <a class="section-title link-button" href="https://www.github.com/tylernh10/" target="_blank">
-                    GitHub
-                </a>
+            <div class="center-vertical-stack">
+                <h3 class="section-title">Projects</h3>
+                <a class="section-title link-button" href="https://www.github.com/tylernh10/" target="_blank">GitHub</a>
             </div>
         </section>
         <div class="top-space-smallest"></div>
         <section id="education" class="education-section">
-            <div class="top-space-smaller"></div>
             <div class="top-space-smallest"></div>
             <div class="card work-experience-item-container education-container">
                 <h3 class="section-title">
@@ -195,18 +178,23 @@
                     <div class="gray-bg margin-add1">Multivariable Calculus</div>
                 </div>
                 <div class="top-space-smallest"></div>
-                <div class="skills-label">Upcoming Relevant Courses (Fall 2023)</div>
+                <div class="skills-label">Current Relevant Courses (Fall 2023)</div>
                 <div class="skills-holder">
                     <div class="gray-bg margin-add1">Big Data Analytics</div>
-                    <div class="gray-bg margin-add1">Computer and Network Security</div>
-                    <div class="gray-bg margin-add1">Senior Design in Computer Science</div>
+                    <div class="gray-bg margin-add1">CS Senior Design I</div>
+                    <div class="gray-bg margin-add1">Independent Study in Computer Science</div>
+                </div>
+                <div class="top-space-smallest"></div>
+                <div class="skills-label">Upcoming Relevant Courses (Spring 2024)</div>
+                <div class="skills-holder">
+                    <div class="gray-bg margin-add1">Cloud Computing</div>
+                    <div class="gray-bg margin-add1">CS Senior Design II</div>
                     <div class="gray-bg margin-add1">Honors Thesis in Computer Science</div>
                 </div>
             </div>
             <div class="top-space-smallest"></div>
         </section>
-        <section id="contact">
-            <div class="top-space-smaller"></div>
+        <section id="contact" class="section">
             <h3 class="section-title">
                 Contact
             </h3>
@@ -225,7 +213,7 @@
                     <div class="discord-card">
                         <img class="center-image contact-image" src="images/discord-bubble.png">
                         <div class="discord-text-holder">
-                            <span>Ty Freestyle#7365</span>
+                            <span>Copy username</span>
                             <img id="discord-image" class="discord-copy-image" src="images/copy.png">
                         </div>
                     </div>
@@ -243,6 +231,7 @@
     <script src="scripts/projects.js"></script>
     <script src="scripts/intro.js"></script>
     <script src="scripts/discordcopy.js"></script>
+    <script src="scripts/progressbar.js"></script>
 </html>
 
 
