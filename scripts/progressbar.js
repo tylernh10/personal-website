@@ -1,11 +1,11 @@
 function updateProgressBar() {
     const progInfo = [
-        ["Software Concentration", 100, "green"],
-        ["Mathematics Minor", 100, "red"],
-        ["Emotion Estimation", 60, "blue"], 
-        ["Honors Thesis", 30, "yellow"],
-        ["Mobile App TAing", 30, "purple"],  
-        ["Senior Design Project", 30, "orange"]
+        ["Software Concentration", 100],
+        ["Mathematics Minor", 100],
+        ["Emotion Estimation", 60], 
+        ["Honors Thesis", 30],
+        ["Mobile App TAing", 30],  
+        ["Senior Design Project", 30]
     ];
 
     var progress = document.getElementById("progress-update-card")
@@ -13,7 +13,6 @@ function updateProgressBar() {
     for (i = 0; i < progInfo.length; i++) {
         const name = progInfo[i][0];
         const percent = progInfo[i][1];
-        const color = progInfo[i][2];
         
         var container = document.createElement("div");
         container.style.marginBottom = "5px";
