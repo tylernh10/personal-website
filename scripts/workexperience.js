@@ -1,8 +1,15 @@
 var experienceInfo = [
     {
+        image: "images/travelers-logo.png",
+        title: "Software Engineer, Engineering Development Program • Travelers",
+        date: "June 2024 - Present",
+        summary: "Software Engineer in the Engineering Development Program (EDP). Fullstack development on the Travelers Engineering Portal and audit automation within the Engineering Enablement circle within Digital Enablement.",
+        skills: ["Software Development", "Node.js", "React.js", "Python", "Selenium", "Automation",]
+    },
+    {
         image: "images/uconn-logo.png",
         title: "Undergraduate Teaching Assistant • University of Connecticut",
-        date: "August 2023 - Present",
+        date: "August 2023 - May 2024",
         summary: "Undergraduate teaching assistant for CSE 3200, Mobile Application Development. Promote student learning of concepts such as Kotlin, Android SDK, MVVM design pattern, and more. Grade student assignments and exams and hold office hours on a weekly basis.",
         skills: ["Kotlin", "Android Development", "Android SDK", "Software Development"]
     },
