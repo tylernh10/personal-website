@@ -7,26 +7,27 @@
         <link rel="stylesheet" href="styles/main.css">
         <link rel="stylesheet" href="styles/dlmode.css">
         <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/progressbar.css">
         <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
         <link rel="canonical" href="/">
         <title>Tyler Hinrichs</title>
 
         <!-- Primary Meta Tags -->
         <meta name="title" content="Tyler Hinrichs">
-        <meta name="description" content="Honors CS student at the University of Connecticut">
+        <meta name="description" content="Full Stack Software Engineer">
 
         <!-- Open Graph / Facebook -->
         <meta property="og:type" content="website">
         <meta property="og:url" content="https://tylerhinrichs.com/">
         <meta property="og:title" content="Tyler Hinrichs">
-        <meta property="og:description" content="Honors CS student at the University of Connecticut">
+        <meta property="og:description" content="Full Stack Software Engineer">
         <meta property="og:image" content="https://cdn.pixabay.com/photo/2019/10/11/09/23/lake-4541454_960_720.jpg">
 
         <!-- Twitter -->
         <meta property="twitter:card" content="summary_large_image">
         <meta property="twitter:url" content="https://tylerhinrichs.com/">
         <meta property="twitter:title" content="Tyler Hinrichs">
-        <meta property="twitter:description" content="Honors CS student at the University of Connecticut">
+        <meta property="twitter:description" content="Full Stack Software Engineer">
         <meta property="twitter:image" content="https://cdn.pixabay.com/photo/2019/10/11/09/23/lake-4541454_960_720.jpg">
     </head>
 
@@ -37,33 +38,34 @@
                     <div id="intro-name-container" class="intro-name"></div>
                     <span id="cursor" class="input-cursor"></span>
                 </div>
-                <div id="intro-info-container" class="intro-info">CS Student and Full Stack Software Engineer</div>
+                <div id="intro-info-container" class="intro-info">Full Stack Software Engineer</div>
                 <img id="intro-expand" onclick="location.href='/#aboutme'" class="intro-image" src="images/expand-arrow.png">
             </div>
         </div>
-        <section id="aboutme" class="section">
-            <div class="top-space-smaller"></div>
-            <h3 class="section-title">
-                Hello, my name is Tyler Hinrichs.
-            </h3>
-            <div style="width: 100vw; margin: auto; text-align: center; margin-bottom: 20px;">(he/him/his)</div>
+
+        
+        <section id="aboutme">
+            <div class="center-vertical-stack">
+                <h3 class="section-title">Hello, I'm Tyler.</h3>
+                <div>(he/him/his)</div>
+                <div style="height: 2vh"></div>
+                <img class="image center-image" src="images/tyler-sf.jpg">
+            </div>
+            
+            <div style="margin: auto; margin-bottom: 2vh;"></div>
             <div style="width: 100vw; display: flex;">
-                <img class="image center-image" src="images/photo(edited).jpg">
             </div>
             <div class="card-container">
                 <div class="card"> 
                     <div class="card-title">Who am I?</div>
-                    <div class="card-item1">I am a computer science student and full stack software engineer.</div>
-                    <div class="card-item1">I'm interested in mobile and web development and I'm passionate about projects that have a positive impact.</div>
+                    <div class="card-item1">I am a full stack software engineer and recent CS graduate from UConn. </div>
+                    <div class="card-item1">I'm interested in software development and passionate about projects that have a positive effect on the world around me.</div>
                 </div>
-                <div class="card">
+                <div class="card" id="progress-update-card">
                     <div class="card-title">What am I up to right now?</div>
-                    <div>Honors CS Student at UConn</div>
-                    <div class="card-subheader">- Software Design and Development Concentration</div>
-                    <div class="card-subheader">- Mathematics Minor</div>
-                    <div class="card-subheader card-item1">- Class of 2024</div>
-                    <div>TLDP SWE Intern at Travelers</div>
-                    <div class="card-subheader card-item1">- Engineering Excellence team in Digital Enablement</div>
+                    <div class="card-item1">
+                        I'm a software engineer at Travelers in the Engineering Development Program working on the Travelers Engineering Portal. I'm working on music on the side, including production for a game soundtrack as well as DJing for fun.
+                    </div>
                 </div>
                 <div class="card">
                     <div class="card-title">
@@ -71,49 +73,34 @@
                     </div>
                     
                     <div class="skills-holder">
-                        <div class="picture-item">
-                            <img class="info-image" src="images/python.png">
-                            <div>Python</div>
-                        </div>
-                        <div class="picture-item">
-                            <img class="info-image" src="images/kotlin-logo.png">
-                            <div>Kotlin</div>
-                        </div>
-                        <div class="picture-item">
-                            <img class="info-image" src="images/c++-logo.png">
-                            <div>C++</div>
-                        </div>
-                        <div class="picture-item">
-                            <img class="info-image" src="images/java-logo.png">
-                            <div>Java</div>
-                        </div>
-                        <div class="picture-item">
-                            <img class="info-image" src="images/android-logo.png">
-                            <div>Android Development</div>
-                        </div>
-                        <div class="picture-item">
-                            <img class="info-image" src="images/github-logo.png">
-                            <div>Git/Github</div>
-                        </div>
-                        <div class="picture-item">
-                            <img class="info-image" src="images/oop.png">
-                            <div>OOP</div>
+                        <div class="skills-holder">
+                            <div class="gray-bg margin-add1">TypeScript</div>
+                            <div class="gray-bg margin-add1">React.js</div>
+                            <div class="gray-bg margin-add1">Python</div>
+                            <div class="gray-bg margin-add1">Kotlin</div>
+                            <div class="gray-bg margin-add1">MongoDB</div>
+                            <div class="gray-bg margin-add1">Android Development</div>
+                            <div class="gray-bg margin-add1">Full Stack Web Development</div>
                         </div>
                     </div>
                     
                 </div>
                 <div class="card">
                     <div class="card-title">
-                        Some of my other interests are...
+                        Some of my hobbies are...
                     </div>
-                    <div class="picture-item interest">
-                        <img class="info-image" src="images/audiotool-logo.png">
-                        <div>Music production on Audiotool</div>
-                    </div>
-                    <div class="picture-item interest">
-                        <img class="info-image" src="images/tetrio-logo.jpg">
-                        <div>Tetris on tetr.io</div>
-                    </div>
+                    <a href="https://audiotool.com/user/tylernh99" target="_blank" style="text-decoration: none; color: black">
+                        <div class="picture-item interest">
+                            <img class="info-image" src="images/audiotool-logo.png">
+                            <div>Music production on Audiotool</div>
+                        </div>
+                    </a>
+                    <a href="https://ch.tetr.io/u/tyfreestyle" target="_blank" style="text-decoration: none; color: black">
+                        <div class="picture-item interest">
+                            <img class="info-image" src="images/tetrio-logo.jpg">
+                            <div>Tetris on tetr.io</div>
+                        </div>
+                    </a>
                     <div class="picture-item interest">
                         <img class="info-image" src="images/running.png">
                         <div>Running</div>
@@ -122,42 +109,30 @@
             </div>
         </section>
         <section id="work-experience">
-            <div class="top-space-smaller"></div>
-            <h3 class="section-title">
-                Work Experience
-            </h3>
-            <div style="height: 3vh;"></div>
-            <div style="display: flex; justify-content: center;">
-                <a class="section-title link-button" href="https://www.linkedin.com/in/tylerhinrichs/" target="_blank">
-                    LinkedIn
-                </a>
+            <div class="center-vertical-stack">
+                <h3 class="section-title">Work Experience</h3>
+                <a class="section-title link-button" href="https://www.linkedin.com/in/tylerhinrichs/" target="_blank">LinkedIn</a>
             </div>
         </section>
         
         <section id="projects" class="section">
-            <div class="top-space-smaller"></div>
-            <h3 class="section-title">
-                Projects
-            </h3>
-            <div style="height: 3vh;"></div>
-            <div style="display: flex; justify-content: center;">
-                <a class="section-title link-button" href="https://www.github.com/tylernh10/" target="_blank">
-                    GitHub
-                </a>
+            <div class="center-vertical-stack">
+                <h3 class="section-title">Projects</h3>
+                <a class="section-title link-button" href="https://www.github.com/tylernh10/" target="_blank">GitHub</a>
             </div>
         </section>
         <div class="top-space-smallest"></div>
         <section id="education" class="education-section">
-            <div class="top-space-smaller"></div>
             <div class="top-space-smallest"></div>
             <div class="card work-experience-item-container education-container">
                 <h3 class="section-title">
                     Education
                 </h3>
                 <div style="height: 2vh;"></div>
-                <div class="education-title">Computer Science at University of Connecticut</div>
-                <div>Class of 2024</div>
-                <div>Honors Program</div>
+                <div class="education-title">Bachelor of Science, Computer Science</div>
+                <div class="education-title">University of Connecticut</div>
+                <div>Graduated 2024 - Summa Cum Laude</div>
+                <div>Software Design and Development Conentration</div>
                 <div>Mathematics Minor</div>
                 <div class="skills-holder" style="margin-top: 20px; justify-content: space-between;">
                     <div class="number-holder">
@@ -165,21 +140,22 @@
                         <div class="number-text">GPA</div>
                     </div>
                     <div class="number-holder">
-                        <div class="number">13</div>
+                        <div class="number">19</div>
                         <div class="number-text">CS Classes Completed</div>
                     </div>
                     <div class="number-holder">
-                        <div class="number">120</div>
+                        <div class="number">144</div>
                         <div class="number-text">Credits Taken</div>
                     </div>
                 </div>
                 <div class="top-space-smallest"></div>
-                <div class="skills-label">Completed Courses</div>
+                <div class="skills-label">Relevant Courses</div>
                 <div class="skills-holder">
+                    <div class="gray-bg margin-add1">Cloud Computing</div>
+                    <div class="gray-bg margin-add1">Big Data Analytics</div>
                     <div class="gray-bg margin-add1">Principles of Databases</div>
                     <div class="gray-bg margin-add1">Cybersecurity Lab</div>
                     <div class="gray-bg margin-add1">Mobile Application Development</div>
-                    <div class="gray-bg margin-add1">Contemporary Issues in Computer Science</div>
                     <div class="gray-bg margin-add1">C++ Essentials</div>
                     <div class="gray-bg margin-add1">Computer Architecture</div>
                     <div class="gray-bg margin-add1">Software Engineering</div>
@@ -188,25 +164,11 @@
                     <div class="gray-bg margin-add1">Algorithms and Complexity</div>
                     <div class="gray-bg margin-add1">Discrete Systems</div>
                     <div class="gray-bg margin-add1">Data Structures and Object-Oriented Design</div>
-                    <div class="gray-bg margin-add1">Number Theory</div>
-                    <div class="gray-bg margin-add1">Probability</div>
-                    <div class="gray-bg margin-add1">Linear Algebra</div>
-                    <div class="gray-bg margin-add1">Elementary Differential Equations</div>
-                    <div class="gray-bg margin-add1">Multivariable Calculus</div>
                 </div>
                 <div class="top-space-smallest"></div>
-                <div class="skills-label">Upcoming Relevant Courses (Fall 2023)</div>
-                <div class="skills-holder">
-                    <div class="gray-bg margin-add1">Big Data Analytics</div>
-                    <div class="gray-bg margin-add1">Computer and Network Security</div>
-                    <div class="gray-bg margin-add1">Senior Design in Computer Science</div>
-                    <div class="gray-bg margin-add1">Honors Thesis in Computer Science</div>
-                </div>
             </div>
-            <div class="top-space-smallest"></div>
         </section>
-        <section id="contact">
-            <div class="top-space-smaller"></div>
+        <section id="contact" class="section" style="min-height: auto; padding-top: 5vh;">
             <h3 class="section-title">
                 Contact
             </h3>
@@ -225,7 +187,7 @@
                     <div class="discord-card">
                         <img class="center-image contact-image" src="images/discord-bubble.png">
                         <div class="discord-text-holder">
-                            <span>Ty Freestyle#7365</span>
+                            <span>Copy username</span>
                             <img id="discord-image" class="discord-copy-image" src="images/copy.png">
                         </div>
                     </div>

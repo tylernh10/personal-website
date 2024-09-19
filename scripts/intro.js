@@ -1,12 +1,12 @@
-var i = 0;
+var nameIndex = 0;
 var txt = 'Tyler Hinrichs'
 
 
 function type() {
-    if (i < txt.length) {
-        document.getElementById("intro-name-container").innerHTML += txt.charAt(i);
-        i++;
-        setTimeout(type, 90);
+    if (nameIndex < txt.length) {
+        document.getElementById("intro-name-container").innerHTML += txt.charAt(nameIndex);
+        nameIndex++;
+        setTimeout(type, Math.random() * (120 - 90) + 90);
     }
 }
 
@@ -22,15 +22,6 @@ function fadeInfo() {
         setTimeout(fadeInfo, 10);
     }
 }
-
-// function below removes the cursor from the screen
-// function remove() {
-//     var typingSection = document.getElementById("typing-section");
-//     typingSection.removeChild(document.getElementById("cursor"));
-//     typingSection.removeChild(document.getElementById("typing-space"));
-// }
-
-// setTimeout(remove, 5300);
 
 document.getElementById("intro-expand").style.cursor = "pointer"
 

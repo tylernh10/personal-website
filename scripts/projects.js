@@ -1,9 +1,9 @@
 var projectsInfo = [
     {
-        image: "images/weather-icon.png",
-        title: "WeatherWise",
-        description: "An Android app to help plan your day using local weather and places data.",
-        link: "https://www.github.com/tylernh10/WeatherWise"
+        image: "images/schedule.png",
+        title: "Admin Web Scheduler [UConn Honors thesis]",
+        description: "Web application for administrative scheduling using the genetic algorithm",
+        link: "https://digitalcommons.lib.uconn.edu/srhonors_theses/986/"
     },
     {
         image: "images/keyboard.png",
@@ -22,31 +22,7 @@ var projectsInfo = [
         title: "Personal Website",
         description: "The website you are currently on! Using HTML, CSS, and Javascript to create a portfolio website",
         link: "https://www.github.com/tylernh10/personal-website-v1"
-    },
-    {
-        image: "images/production.png",
-        title: "Audiotool Data Analysis",
-        description: "Exploring Audiotool through data analysis with Python",
-        link: "https://www.github.com/tylernh10/audiotool-data"
-    },
-    {
-        image: "images/online-course.png",
-        title: "Course Report System",
-        description: "Java system allowing user to interact with course information stored in file via command line",
-        link: "https://www.github.com/tylernh10/course-report-system"
-    },
-    {
-        image: "images/chess-piece.png",
-        title: "Eight Queens Assembly",
-        description: "Solving the Eight Queens problem in RISC-V assembly",
-        link: "https://www.github.com/tylernh10/eight-queens-assembly"
-    },
-    {
-        image: "images/quiz.png",
-        title: "Are You The One?",
-        description: "Playable gameshow simulation using Python and Tkinter",
-        link: "https://www.github.com/tylernh10/are-you-the-one"
-    },
+    }
 ]
 
 var projectsSection = document.getElementById("projects");
@@ -67,7 +43,7 @@ for (var i = 0; i < projectsInfo.length; i++) {
     image.classList.add("center-image");
     image.classList.add("project-image");
     image.src = proj.image;
-    
+
     var title = document.createElement("div");
     title.classList.add("card-title");
     title.classList.add("project-card-title");
@@ -83,6 +59,7 @@ for (var i = 0; i < projectsInfo.length; i++) {
     link.textContent = "view project"
     link.href = proj.link;
     link.target = "_blank";
+
 
     card.appendChild(image);
     card.appendChild(title);

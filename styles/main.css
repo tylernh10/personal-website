@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Poppins&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap'); */
 
 html {
     background-attachment: fixed;
@@ -29,13 +27,8 @@ h3 {
     margin-bottom: 1em;
 }
 
-h4 {
-    margin-block-start: 0em;
-    font-weight: normal;
-}
-
 .image {
-    height: 200px;
+    height: auto;
     width: 200px;
     box-shadow: 0 0 25px #ffffff,
         0 0 0px #ffffff,
@@ -45,6 +38,15 @@ h4 {
     margin: auto;
     margin-left: 25px;
     margin-right: 25px;
+}
+
+.center-vertical-stack {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column;
 }
 
 ul {
@@ -185,7 +187,6 @@ ul {
     background-color: rgb(0, 8, 24, 0.5);
     padding-top: 15px;
     padding-bottom: 15px;
-    border-radius: 20px;
 }
 
 @media screen and (min-width:600px) {
@@ -213,19 +214,11 @@ footer {
 .page-container {
     min-height: 100vh;
     position: relative;
-    background-image: url("../images/city-adjusted.png");
+    background-image: url("../images/nyc-background.jpg");
     margin: auto;
     scroll-behavior: smooth;
     display: flex;
     justify-content: center;
-}
-
-.top-space {
-    height: 18vh;
-}
-
-.top-space-smaller {
-    height: 10vh;
 }
 
 .top-space-smallest {
@@ -236,9 +229,9 @@ footer {
     margin-top: 10px;
 }
 
-.section {
+section {
+    padding-top: 10vh;
     min-height: 100vh;
-    /* padding-bottom: 40px; */
 }
 
 .section-title {
