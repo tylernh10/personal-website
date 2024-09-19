@@ -3,8 +3,8 @@ var experienceInfo = [
         image: "images/travelers-logo.png",
         title: "Software Engineer, Engineering Development Program • Travelers",
         date: "June 2024 - Present",
-        summary: "Software Engineer in the Engineering Development Program (EDP). Fullstack development on the Travelers Engineering Portal and audit automation within the Engineering Enablement circle within Digital Enablement.",
-        skills: ["Software Development", "Node.js", "React.js", "Python", "Selenium", "Automation",]
+        summary: "Software Engineer in the Engineering Development Program (EDP). Fullstack development on the Travelers Engineering Portal.",
+        skills: ["Software Development", "TypeScript", "React.js", "RESTful APIs", "MongoDB", "Node.js", "Python"]
     },
     {
         image: "images/uconn-logo.png",

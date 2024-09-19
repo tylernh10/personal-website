@@ -23,15 +23,6 @@ function fadeInfo() {
     }
 }
 
-// function below removes the cursor from the screen
-// function remove() {
-//     var typingSection = document.getElementById("typing-section");
-//     typingSection.removeChild(document.getElementById("cursor"));
-//     typingSection.removeChild(document.getElementById("typing-space"));
-// }
-
-// setTimeout(remove, 5300);
-
 document.getElementById("intro-expand").style.cursor = "pointer"
 
 setTimeout(fadeInfo, 1500);
