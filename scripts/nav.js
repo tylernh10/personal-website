@@ -10,7 +10,7 @@ function makeResponsive() {
     }
 }
 
-window.onclick = function(event) {
+window.onclick = function (event) {
     var linkHolder = document.getElementById("nav-link-holder");
     var menuImg = document.getElementById("menu-img");
     if (linkHolder.classList.contains('responsive')) {
