@@ -9,8 +9,8 @@ body {
     text-align: center;
     text-wrap: wrap;
     color: rgb(233, 231, 231);
-    padding-left: 50px;
-    padding-right: 50px;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .thesis-title {
@@ -39,4 +39,10 @@ body {
     align-items: center;
     display: flex;
     flex-direction: row;
+}
+
+@media screen and (max-width: 1000px) {
+    .thesis-pdf {
+        display: none;
+    }
 }
