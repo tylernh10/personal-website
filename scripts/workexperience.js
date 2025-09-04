@@ -1,8 +1,15 @@
 var experienceInfo = [
     {
         image: "images/travelers-logo.png",
+        title: "Associate Software Engineer • Travelers",
+        date: "June 2025 - Present",
+        summary: "Continuing with fullstack development on the Travelers Engineering Platform.",
+        skills: ["Software Development", "TypeScript", "React.js", "RESTful APIs", "MongoDB", "Node.js", "Python"]
+    },
+    {
+        image: "images/travelers-logo.png",
         title: "Software Engineer, Engineering Development Program • Travelers",
-        date: "June 2024 - Present",
+        date: "June 2024 - June 2025",
         summary: "Software Engineer in the Engineering Development Program (EDP). Fullstack development on the Travelers Engineering Portal.",
         skills: ["Software Development", "TypeScript", "React.js", "RESTful APIs", "MongoDB", "Node.js", "Python"]
     },
@@ -42,7 +49,7 @@ for (var i = 0; i < experienceInfo.length; i++) {
 
     var container = document.createElement("div");
     container.classList.add("work-experience-item-container");
-    
+
     // image
     var companyImage = document.createElement("img");
     companyImage.classList.add("work-experience-image");

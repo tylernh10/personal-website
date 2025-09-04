@@ -43,9 +43,9 @@ h3 {
 .center-vertical-stack {
     margin-top: 20px;
     margin-bottom: 20px;
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
 }
 
@@ -225,6 +225,10 @@ footer {
     height: 5vh;
 }
 
+.top-space-small {
+    height: 10vh;
+}
+
 .summary {
     margin-top: 10px;
 }
@@ -232,6 +236,10 @@ footer {
 section {
     padding-top: 10vh;
     min-height: 100vh;
+}
+
+.smaller-section {
+    min-height: fit-content;
 }
 
 .section-title {
@@ -517,10 +525,21 @@ section {
 }
 
 @keyframes blink {
-    0% {opacity: 1;}
-    40% {opacity: 1;}
-    60% {opacity: 0;}
-    100% {opacity: 0;}
+    0% {
+        opacity: 1;
+    }
+
+    40% {
+        opacity: 1;
+    }
+
+    60% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
 }
 
 .input-cursor {
@@ -574,21 +593,27 @@ section {
         flex-direction: column;
         justify-content: center;
     }
+
     .work-experience-image {
         margin: auto;
     }
+
     .education-title {
         font-size: 1.2em;
     }
+
     .card {
         max-width: 90vw;
     }
+
     .intro-content {
         font-size: 2em;
     }
+
     .intro-name {
         font-size: 2.5em;
     }
+
     .intro-content {
         font-size: 1em;
     }

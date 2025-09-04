@@ -3,7 +3,8 @@ var projectsInfo = [
         image: "images/schedule.png",
         title: "Admin Web Scheduler [UConn Honors thesis]",
         description: "Web application for administrative scheduling using the genetic algorithm",
-        link: "https://digitalcommons.lib.uconn.edu/srhonors_theses/986/"
+        link: "/thesis.html",
+        sameTab: true
     },
     {
         image: "images/keyboard.png",
@@ -20,7 +21,7 @@ var projectsInfo = [
     {
         image: "images/ux.png",
         title: "Personal Website",
-        description: "The website you are currently on! Using HTML, CSS, and Javascript to create a portfolio website",
+        description: "The website you are currently on! Using HTML, CSS, and JavaScript to create a portfolio website",
         link: "https://www.github.com/tylernh10/personal-website-v1"
     }
 ]
@@ -58,7 +59,7 @@ for (var i = 0; i < projectsInfo.length; i++) {
     link.classList.add("github-link");
     link.textContent = "view project"
     link.href = proj.link;
-    link.target = "_blank";
+    link.target = link.sameTab ? "_blank" : "_self";
 
 
     card.appendChild(image);

@@ -17,8 +17,8 @@ template.innerHTML = `
 </nav>
 <footer class="bottom-menu">
     <div class="bottom-info">
-        <a href="versions" class="version">v1.1.0</a>
-        <div class="version"> © 2024 Tyler Hinrichs</div>
+        <a href="versions" class="version">v1.2.0</a>
+        <div class="version"> © 2025 Tyler Hinrichs</div>
     </div>
 </footer>
 `
@@ -31,9 +31,9 @@ const height = nav.offsetHeight
 const add_class_on_scroll = () => nav.classList.add("add-bg-color")
 const remove_class_on_scroll = () => nav.classList.remove("add-bg-color")
 
-window.addEventListener('scroll', function() { 
+window.addEventListener('scroll', function () {
     scrollPos = window.scrollY;
 
     if (scrollPos >= height) { add_class_on_scroll() }
     else { remove_class_on_scroll() }
-  })
+})
