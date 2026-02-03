@@ -18,7 +18,7 @@ body {
     margin-bottom: 50px;
 }
 
-.thesis-item-spacing {
+.upper-spacing {
     padding-bottom: 20px;
 }
 
@@ -33,7 +33,7 @@ body {
     height: 90vh;
 }
 
-.thesis-container {
+.link-label-container {
     text-align: center;
     justify-content: center;
     align-items: center;
