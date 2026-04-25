@@ -42,19 +42,22 @@ const aboutContent = {
 
 export default function About() {
     return (
-        <div className="w-max mx-auto my-20">
-            <div className="flex flex-col lg:flex-row lg:max-w-4xl align-center items-center lg:items-stretch">
-                <Image
-                    src="/tyler-2024.png"
-                    width={250}
-                    height={250}
-                    className="rounded-md m-3 object-cover"
-                    alt="Tyler in San Francisco in 2024"
-                />
+        <div className="">
+            <div className="section-content flex flex-col lg:flex-row lg:max-w-4xl align-center items-center lg:items-stretch">
+                <div className="w-75 overflow-hidden rounded-md m-3">
+                    <Image
+                        src="/tyler-2024.png"
+                        width={500}
+                        height={500}
+                        className="w-full h-full object-cover"
+                        alt="Tyler in San Francisco in 2024"
+                    />
+                </div>
+
                 <div className="flex flex-col">
                     <Card className="card max-w-xs md:max-w-xl lg:max-w-2xl">
                         <CardHeader>
-                            <CardTitle className="font-bold">{aboutContent.title}</CardTitle>
+                            <CardTitle className="font-bold text-xl">{aboutContent.title}</CardTitle>
                             <CardDescription>{aboutContent.description}</CardDescription>
                         </CardHeader>
                         <CardContent>
@@ -87,7 +90,7 @@ export default function About() {
                         </Card>
                     </div>
                     <Card className="card max-w-xs md:max-w-xl lg:max-w-4xl">
-                        <CardContent className="flex justify-center items-center gap-3 flex-wrap">
+                        <CardContent className="flex justify-left items-center gap-3 flex-wrap">
                             {aboutContent.skills.map((skill, index) => (
                                 <SkillBadge key={index} skill={skill.skill} circleColor={skill.circleColor} />
                             ))}
