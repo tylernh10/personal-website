@@ -133,3 +133,8 @@
   margin: 0 auto;
   width: 100%;
 }
+
+.card {
+  border-radius: var(--radius-md);
+  margin: calc(var(--spacing) * 3);
+}
