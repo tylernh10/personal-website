@@ -1,9 +1,11 @@
 import { Badge } from "@/components/ui/badge";
 
-type skillBadgeProps = {
+export type skillBadge = {
     skill: string;
     circleColor: string;
 }
+
+type skillBadgeProps = skillBadge;
 
 export default function SkillBadge({ skill, circleColor }: skillBadgeProps) {
     return (

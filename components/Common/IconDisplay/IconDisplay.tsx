@@ -3,10 +3,11 @@ import Link from "next/link";
 type IconDiplayProps = {
     clickable?: boolean;
     link?: string;
+    border?: boolean; // note: clickable always has a border, but this allows for a border on non-clickable icons
     icon: React.ReactNode;
 }
 
-export default function IconDisplay({ clickable, link, icon }: IconDiplayProps) {
+export default function IconDisplay({ clickable, link, border, icon }: IconDiplayProps) {
     return (
         <>
             {clickable && link ? (
@@ -16,7 +17,7 @@ export default function IconDisplay({ clickable, link, icon }: IconDiplayProps) 
                     </div>
                 </Link>
             ) : (
-                <div className="text-muted-foreground">
+                <div className={`${border ? 'border rounded-md' : ''} text-muted-foreground`}>
                     {icon}
                 </div>
             )}

@@ -138,9 +138,3 @@
   border-radius: var(--radius-md);
   margin: calc(var(--spacing) * 3);
 }
-
-.section-content {
-  width: max-content;
-  margin-inline: auto;
-  margin-block: calc(var(--spacing));
-}
