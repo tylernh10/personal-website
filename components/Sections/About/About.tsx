@@ -11,9 +11,10 @@ import { CodeXmlIcon, Mail } from "lucide-react";
 import "@/app/globals.css";
 import { GitHubIcon } from "@/components/Icons/GitHubIcon";
 import { LinkedInIcon } from "@/components/Icons/LinkedInIcon";
-import IconDisplay from "../IconDisplay/IconDisplay";
-import SkillBadge from "../SkillBadge/SkillBadge";
+
 import { SkillColors } from "@/lib/SkillColors";
+import SkillBadge from "../../Common/SkillBadge/SkillBadge";
+import IconDisplay from "../../Common/IconDisplay/IconDisplay";
 
 const aboutContent = {
     title: "Hello, I'm Tyler.",
