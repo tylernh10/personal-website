@@ -5,14 +5,14 @@ const workExperiences: Experience[] = [
     {
         title: "Travelers",
         location: "Hartford, CT",
-        experienceImg: "/travelers-logo.png",
+        experienceImg: "/travelers-logo-square.png",
         experienceImgAlt: "Travelers logo",
         experienceItems: [
             {
                 label: "Associate Software Engineer",
                 type: ExperienceType.FULL_TIME,
                 startDate: new Date(2025, 5),
-                description: "Building a Backstage-based application catalog to provide a centralized hub for software discovery and management. Creating a domain API as an abstraction layer to provide detailed Identity Provider information to Backstage catalog and other internal applications, improving developer experience through streamlied read and write access to Okta applications and authorization server information.",
+                description: "Building a Backstage-based application catalog to provide a centralized hub for software discovery and management. Creating a domain API as an abstraction layer to provide detailed Identity Provider information to Backstage catalog and other internal applications, improving developer experience through streamlined read and write access to Okta app and auth server information.",
                 skills: [
                     { skill: "TypeScript", circleColor: SkillColors.BLUE },
                     { skill: "PostgreSQL", circleColor: SkillColors.ORANGE },

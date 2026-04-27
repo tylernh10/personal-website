@@ -32,7 +32,7 @@ export default function ExperienceTimelineItemDisplay({ label, type, startDate, 
                             ))}
                         </div>
                     </div>
-                    <div className="sm:hidden">{expandedDesc ? <CircleMinus className="text-muted-foreground" size={20} /> : <CirclePlus className="text-muted-foreground"size={20} />}</div>
+                    <div className="sm:hidden">{expandedDesc ? <CircleMinus className="text-muted-foreground" size={20} /> : <CirclePlus size={20} />}</div>
                 </div>
             </div>
         </div>

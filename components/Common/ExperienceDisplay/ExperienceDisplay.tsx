@@ -4,8 +4,8 @@
  */
 
 import Image from "next/image";
-import { skillBadge } from "../SkillBadge/SkillBadge";
 import ExperienceTimelineItemDisplay from "./ExperienceTimelineItemDisplay";
+import { SkillBadgeType } from "../SkillBadge/SkillBadge";
 
 export enum ExperienceType {
     FULL_TIME = "Full time",
@@ -26,7 +26,7 @@ export type ExperienceTimelineItem = {
     startDate: Date;
     endDate?: Date; // if undefined, experience item is ongoing
     description: string;
-    skills: skillBadge[];
+    skills: SkillBadgeType[];
 }
 
 type ExperienceDisplayProps = {
@@ -35,7 +35,7 @@ type ExperienceDisplayProps = {
 
 export default function ExperienceDisplay({ experience }: ExperienceDisplayProps) {
     return (
-        <div className="mb-10">
+        <div className="mb-10 mr-3">
             <div className="flex flex-row items-start">
                 <div className="w-15 overflow-hidden rounded-md mr-3 p-3 shrink-0 border">
                     <Image
