@@ -4,6 +4,14 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { cn } from "@/lib/utils";
 
+import type { Metadata } from "next";
+
+// Add this object to set the site name
+export const metadata: Metadata = {
+  title: "Tyler Hinrichs",
+  description: "Tyler Hinrichs, Software Engineer",
+};
+
 const inter = Inter({ subsets: ['latin'], variable: '--font-sans' })
 
 const fontMono = Geist_Mono({
