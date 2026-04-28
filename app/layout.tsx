@@ -6,8 +6,8 @@ import { cn } from "@/lib/utils";
 
 import type { Metadata } from "next";
 import NavBar from "@/components/NavBar/NavBar";
+import Footer from "@/components/Common/Footer/Footer";
 
-// Add this object to set the site name
 export const metadata: Metadata = {
   title: "Tyler Hinrichs",
   description: "Tyler Hinrichs, Software Engineer",
@@ -37,6 +37,7 @@ export default function RootLayout({
           <div className="page-container">
             {children}
           </div>
+          <Footer />
         </ThemeProvider>
       </body>
     </html>

@@ -89,13 +89,14 @@ export default function About() {
                         </CardContent>
                     </Card>
                 </div>
-                <Card className="card max-w-xs md:max-w-xl lg:max-w-4xl">
+                {/* Skills section - removed for now */}
+                {/* <Card className="card max-w-xs md:max-w-xl lg:max-w-4xl">
                     <CardContent className="flex justify-left items-center gap-3 flex-wrap">
                         {aboutContent.skills.map((skill, index) => (
                             <SkillBadge key={index} skill={skill.skill} circleColor={skill.circleColor} />
                         ))}
                     </CardContent>
-                </Card>
+                </Card> */}
             </div>
         </div>
     )
