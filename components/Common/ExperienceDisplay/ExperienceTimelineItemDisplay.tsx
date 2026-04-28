@@ -14,7 +14,7 @@ export default function ExperienceTimelineItemDisplay({ label, type, startDate, 
     return (
         <div className="flex flex-row items-start mb-4">
             <ChevronsRight className="m-1 text-muted-foreground shrink-0" size={20} />
-            <div className="p-4 border rounded-md hover:bg-secondary hover:cursor-pointer" onClick={() => setExpandedDesc(!expandedDesc)}>
+            <div className="p-4 border rounded-md hover:bg-secondary hover:cursor-pointer transition-all duration-200 ease-in-out" onClick={() => setExpandedDesc(!expandedDesc)}>
                 <div className="flex flex-row gap-4">
                     <div>
                         <div>

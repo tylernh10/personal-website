@@ -10,10 +10,9 @@ export default function Home() {
     <>
       <Name />
       
-      <SectionDivider sectionTitle="About Me" id="about" />
       <About />
 
-      <SectionDivider sectionTitle="Work Experience" id="experience" />
+      <SectionDivider sectionTitle="Work Experience" id="work" />
       <WorkExperience />
 
       <SectionDivider sectionTitle="Projects" id="projects" />

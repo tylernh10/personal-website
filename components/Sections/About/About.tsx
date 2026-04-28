@@ -43,7 +43,7 @@ const aboutContent = {
 
 export default function About() {
     return (
-        <div className="w-max mx-auto m-1 flex flex-col lg:flex-row lg:max-w-4xl align-center items-center lg:items-stretch">
+        <div className="w-max mx-auto m-1 flex flex-col lg:flex-row lg:max-w-4xl align-center items-center lg:items-stretch mt-10">
             <div className="w-75 overflow-hidden rounded-md m-3">
                 <Image
                     src="/tyler-2024.png"

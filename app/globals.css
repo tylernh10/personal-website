@@ -128,7 +128,7 @@
     }
   body {
     @apply bg-background text-foreground;
-    }
+  }
   html {
     @apply font-sans;
     }
@@ -138,9 +138,15 @@
   max-width: 1000px;
   margin: 0 auto;
   width: 100%;
+  display: flow-root;
+  min-height: 100vh;
 }
 
 .card {
   border-radius: var(--radius-md);
   margin: calc(var(--spacing) * 3);
+}
+
+html, body {
+  scroll-behavior: smooth !important;
 }

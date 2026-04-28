@@ -32,7 +32,7 @@ const statusColors: Record<ProjectStatus, Record<string, string>> = {
 
 export default function ProjectCard({ title, description, skills, status, gitHubLink, externalLink }: ProjectInfo) {
     return (
-        <Card className="card min-w-3xs max-w-xs">
+        <Card className="card min-w-3xs max-w-xs w-full">
             <CardHeader>
                 <div className="flex flex-row gap-1">
                     <IconDisplay clickable link={gitHubLink} icon={<GitHubIcon className='m-1' size={20} />} />

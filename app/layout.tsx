@@ -5,6 +5,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { cn } from "@/lib/utils";
 
 import type { Metadata } from "next";
+import NavBar from "@/components/NavBar/NavBar";
 
 // Add this object to set the site name
 export const metadata: Metadata = {
@@ -32,6 +33,7 @@ export default function RootLayout({
     >
       <body>
         <ThemeProvider>
+          <NavBar />
           <div className="page-container">
             {children}
           </div>

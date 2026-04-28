@@ -11,8 +11,8 @@ export default function IconDisplay({ clickable, link, border, icon }: IconDipla
     return (
         <>
             {clickable && link ? (
-                <Link href={link} target="_blank">
-                    <div className="border rounded-md hover:bg-muted">
+                <Link href={link || ''} target="_blank">
+                    <div className="border rounded-md hover:bg-muted transition-all duration-200 ease-in-out">
                         {icon}
                     </div>
                 </Link>

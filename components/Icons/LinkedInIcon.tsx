@@ -23,4 +23,4 @@ export const LinkedInIcon = ({ size = 24, className, ...props }: LinkedInIconPro
       />
     </svg>
   );
-};
+}
