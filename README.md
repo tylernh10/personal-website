@@ -1,21 +1,37 @@
-# Next.js template
+# tylerhinrichs.com
+A little bit about me.
 
-This is a Next.js template with shadcn/ui.
+Previously, v1 of my website used only HTML, CSS, and JavaScript. On v2, the tech stack has been modernized and the codebase has been significantly improved.
 
-## Adding components
+Stack:
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Shadcn](https://ui.shadcn.com/)
+- [Vercel](https://vercel.com/)
+- [release-please-action](https://github.com/googleapis/release-please-action)
 
-To add components to your app, run the following command:
+This app was created from a Next.js template with shadcn/ui. It uses `pnpm` as a package manager.
 
+Feel free to leave any suggestions via Issue or Pull Request!
+
+## Local setup
+
+### Install dependencies
 ```bash
-npx shadcn@latest add button
+cd app/
+pnpm i
 ```
 
-This will place the ui components in the `components` directory.
+### Build
 
-## Using components
+```bash
+cd app/
+pnpm run build
+```
 
-To use the components in your app, import them as follows:
+### Start locally
 
-```tsx
-import { Button } from "@/components/ui/button";
+```bash
+cd app/
+pnpm run dev
 ```
