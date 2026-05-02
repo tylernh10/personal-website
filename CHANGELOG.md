@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.2](https://github.com/tylernh10/personal-website/compare/v2.0.1...v2.0.2) (2026-05-02)
+
+
+### Bug Fixes
+
+* fix timezone mismatch issue ([#9](https://github.com/tylernh10/personal-website/issues/9)) ([8799649](https://github.com/tylernh10/personal-website/commit/8799649911a8853474cc1db20ddcf38a66fa5c49))
+
 ## [2.0.1](https://github.com/tylernh10/personal-website/compare/v2.0.0...v2.0.1) (2026-05-02)
 
 
