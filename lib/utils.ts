@@ -19,21 +19,21 @@ export const getDateRangeString = (startDate: Date, endDate?: Date) => {
 };
 
 export const getTotalDuration = (startDate: Date, endDate?: Date) => {
-  const end = new Date(endDate ?? new Date());
-  end.setMonth(end.getMonth() + 1);
+  const end = endDate ?? new Date();
 
-  let years = end.getFullYear() - startDate.getFullYear();
-  let months = end.getMonth() - startDate.getMonth();
+  const yearDiff = end.getFullYear() - startDate.getFullYear();
+  const monthDiff = end.getMonth() - startDate.getMonth();
 
-  if (months < 0) {
-    years--;
-    months += 12;
-  }
+  const totalMonths = (yearDiff * 12) + monthDiff + 1;
+
+  if (totalMonths <= 0) return '1mo';
+
+  const years = Math.floor(totalMonths / 12);
+  const months = totalMonths % 12;
 
   const parts = [];
   if (years > 0) parts.push(`${years}y`);
   if (months > 0) parts.push(`${months}mo`);
 
-  return parts.length > 0 ? parts.join(' ') : '1mo';
+  return parts.join(' ');
 };
-
