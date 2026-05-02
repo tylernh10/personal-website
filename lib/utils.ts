@@ -6,9 +6,10 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 export const getDateRangeString = (startDate: Date, endDate?: Date) => {
-  const formatter = new Intl.DateTimeFormat('en-US', {
-    year: 'numeric',
-    month: 'short'
+  const formatter = new Intl.DateTimeFormat('en-US', { 
+    year: 'numeric', 
+    month: 'short',
+    timeZone: 'UTC'
   });
 
   if (!endDate) {
@@ -19,10 +20,11 @@ export const getDateRangeString = (startDate: Date, endDate?: Date) => {
 };
 
 export const getTotalDuration = (startDate: Date, endDate?: Date) => {
-  const end = endDate ?? new Date();
+  const now = new Date();
+  const end = endDate ?? new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth()));
 
-  const yearDiff = end.getFullYear() - startDate.getFullYear();
-  const monthDiff = end.getMonth() - startDate.getMonth();
+  const yearDiff = end.getUTCFullYear() - startDate.getUTCFullYear();
+  const monthDiff = end.getUTCMonth() - startDate.getUTCMonth();
 
   const totalMonths = (yearDiff * 12) + monthDiff + 1;
 

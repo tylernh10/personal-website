@@ -11,8 +11,8 @@ const educationItems: Experience[] = [
             {
                 label: "Bachelor of Science in Computer Science",
                 type: ExperienceType.FULL_TIME,
-                startDate: new Date(2020, 8),
-                endDate: new Date(2024, 4),
+                startDate: new Date('2020-08-01'),
+                endDate: new Date('2024-05-01'),
                 description: "I earned a B.S. in Computer Science alongside a minor in Mathematics and graduated Summa Cum Laude with a 4.0 GPA. During my time at UConn, I was a TA for CSE 3200 (Mobile Application Development) and I was a member of the UConn Data Science Club and the Honors Program.",
                 skills: [
                     { skill: "Python", circleColor: SkillColors.YELLOW },
