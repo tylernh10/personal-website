@@ -40,7 +40,7 @@ const workExperiences: Experience[] = [
                 type: ExperienceType.FULL_TIME,
                 startDate: new Date(2023, 5),
                 endDate: new Date(2023, 7),
-                description: "Developed a Python/Selenium application providing a suite of automated data gathering methods through a robust command line interface to streamline data gathering for the SOX application audit process",
+                description: "Developed a Python/Selenium application providing a suite of automated data gathering methods through a robust command line interface to streamline data gathering for the SOX application audit process.",
                 skills: [
                     { skill: "Python", circleColor: SkillColors.YELLOW },
                     { skill: "Selenium", circleColor: SkillColors.DARK_GREEN },
